@@ -1,0 +1,12 @@
+# brute force 
+def hcf():
+    a=int(input("enter the no."))
+    b=int(input("enter the no."))
+    c=min(a,b)
+    for i in range(c,0,-1):
+        if a%i==0 and b%i==0:
+            print(i)
+            break
+        break
+
+hcf()

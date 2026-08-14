@@ -1,0 +1,6 @@
+def sum_natural():
+    n=int(input("enter the no"))
+    sum=n*(n+1)/2
+    print(sum)
+
+sum_natural(6)
